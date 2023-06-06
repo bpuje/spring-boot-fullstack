@@ -16,12 +16,16 @@ import java.util.Random;
 public class Main {
     public static void main(String[] args) {
         SpringApplication.run(Main.class, args);
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> da5a7d2 (added new line)
     }
 
     @Bean
     CommandLineRunner runner(CustomerRepository customerRepository) {
+
         return args -> {
             var faker = new Faker();
             Random random = new Random();
