@@ -88,6 +88,10 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<version>3.0.6</version>
+				<configuration>
+					<mainClass>com.amigoscode.Main</mainClass>
+				</configuration>
 				<executions>
 					<execution>
 						<id>pre-integration-test</id>
