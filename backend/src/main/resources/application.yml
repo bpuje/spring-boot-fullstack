@@ -22,5 +22,3 @@ spring:
     show-sql: true
   main:
     web-application-type: servlet
-
-

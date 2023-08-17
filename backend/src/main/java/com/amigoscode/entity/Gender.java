@@ -1,0 +1,1 @@
+package com.amigoscode.entity;public enum Gender {    MALE,    FEMALE}
