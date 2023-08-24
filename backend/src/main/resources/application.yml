@@ -22,3 +22,8 @@ spring:
     show-sql: true
   main:
     web-application-type: servlet
+  jmx:
+    default-domain: amigoscode-api
+    server: true
+    port: 9001
+    enabled: true
