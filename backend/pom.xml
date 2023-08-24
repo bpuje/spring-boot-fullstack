@@ -90,7 +90,6 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
 					<mainClass>com.amigoscode.Main</mainClass>
-					<wait>50000</wait>
 				</configuration>
 				<executions>
 					<execution>
