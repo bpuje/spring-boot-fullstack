@@ -39,7 +39,6 @@ public class Main {
                     "Jamila",
                     "jamila@gmail.com",
                     19, Gender.MALE);
-//            List<Customer> customers = List.of(alex, jamila);
             customerRepository.save(customers);
         };
     }
