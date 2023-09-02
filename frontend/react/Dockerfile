@@ -1,1 +1,1 @@
-FROM node:20-alpineWORKDIR /appCOPY package*.json .RUN npm i --silentCOPY . .RUN echo "VITE_API_BASE_URL=http://localhost:8088" > .envEXPOSE 5173CMD ["npm", "run", "dev"]docker build . -t shubhamwagh2544/userinventory-react --build-argapi_base_url=http://shubhams-userinventory-v1.ap-south-1.elasticbeanstalk.com:8080
+FROM node:20-alpineWORKDIR /appCOPY package*.json .RUN npm i --silentCOPY . .RUN echo "VITE_API_BASE_URL=http://localhost:8088" > .envEXPOSE 5173CMD ["npm", "run", "dev"]
