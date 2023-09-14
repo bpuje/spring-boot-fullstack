@@ -41,7 +41,6 @@ public class Main {
                     passwordEncoder.encode("password"),
                     age,
                     gender);
-
             Customer jamila = new Customer(
                     "Jamila",
                     "jamila@gmail.com",
