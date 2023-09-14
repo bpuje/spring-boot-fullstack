@@ -1,0 +1,1 @@
+package com.amigoscode.auth;import com.amigoscode.dto.CustomerDTO;public record AuthenticationResponse(        String token,        CustomerDTO customerDTO) {}
