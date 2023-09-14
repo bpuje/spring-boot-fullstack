@@ -46,7 +46,6 @@ public class Main {
                     "Jamila",
                     "jamila@gmail.com",
                     "password", 19, Gender.MALE);
-//            List<Customer> customers = List.of(alex, jamila);
             customerRepository.save(customer);
             System.out.println(email);
         };
