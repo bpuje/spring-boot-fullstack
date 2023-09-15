@@ -41,10 +41,6 @@ public class Main {
                     passwordEncoder.encode("password"),
                     age,
                     gender);
-            Customer jamila = new Customer(
-                    "Jamila",
-                    "jamila@gmail.com",
-                    "password", 19, Gender.MALE);
             customerRepository.save(customer);
             System.out.println(email);
         };
